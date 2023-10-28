@@ -1,0 +1,3700 @@
+{
+  "uid" : "aa41e7d84faa5f46",
+  "name" : "To verified Till Vault count in Retail",
+  "fullName" : "To verified Till Vault count in Retail",
+  "historyId" : "2fce6619d1362be2a018f2fd70734a0c",
+  "time" : {
+    "start" : 1632832820937,
+    "stop" : 1632832855145,
+    "duration" : 34208
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit https://uat.flourishsoftware.com",
+      "time" : {
+        "start" : 1632832805732,
+        "stop" : 1632832814321,
+        "duration" : 8589
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /node/api/applications/58b9ae49280e20ea24a126b7/valid",
+      "time" : {
+        "start" : 1632832814316,
+        "stop" : 1632832814317,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 403 /node/api/me",
+      "time" : {
+        "start" : 1632832814317,
+        "stop" : 1632832814317,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /version.json?t=1632832812639",
+      "time" : {
+        "start" : 1632832814318,
+        "stop" : 1632832814318,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /bff/env/config",
+      "time" : {
+        "start" : 1632832814318,
+        "stop" : 1632832814318,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://lighthouse.helpdocs.io/account?widget_key=liw96nfkgvrc1wyg8enj",
+      "time" : {
+        "start" : 1632832814318,
+        "stop" : 1632832814318,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "DELETE 200 /bff/auth/logout",
+      "time" : {
+        "start" : 1632832814319,
+        "stop" : 1632832814319,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://lighthouse.helpdocs.io/category?widget_key=liw96nfkgvrc1wyg8enj",
+      "time" : {
+        "start" : 1632832814319,
+        "stop" : 1632832814319,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://lighthouse.helpdocs.io/article?widget_key=liw96nfkgvrc1wyg8enj",
+      "time" : {
+        "start" : 1632832814320,
+        "stop" : 1632832814320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://pp.signalayer.com/a3a15089-d1aa-4438-be99-27533ad297de",
+      "time" : {
+        "start" : 1632832814320,
+        "stop" : 1632832814320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://data.tooltip.io/player/fetch/a3a15089-d1aa-4438-be99-27533ad297de.json",
+      "time" : {
+        "start" : 1632832814320,
+        "stop" : 1632832814320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get #username",
+      "time" : {
+        "start" : 1632832814321,
+        "stop" : 1632832814382,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type jgarcia_demo@flourishsoftware.com",
+      "time" : {
+        "start" : 1632832814382,
+        "stop" : 1632832815421,
+        "duration" : 1039
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get #password",
+      "time" : {
+        "start" : 1632832815421,
+        "stop" : 1632832815450,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type Flourish1!",
+      "time" : {
+        "start" : 1632832815450,
+        "stop" : 1632832815891,
+        "duration" : 441
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get .flourish-submit-button",
+      "time" : {
+        "start" : 1632832815891,
+        "stop" : 1632832815920,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1632832815920,
+        "stop" : 1632832816127,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /bff/auth/login",
+      "time" : {
+        "start" : 1632832816127,
+        "stop" : 1632832816127,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "wait 3000",
+      "time" : {
+        "start" : 1632832816127,
+        "stop" : 1632832819139,
+        "duration" : 3012
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /node/api/applications/58b9ae49280e20ea24a126b7/qzsslcert",
+      "time" : {
+        "start" : 1632832819138,
+        "stop" : 1632832819138,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /bff/auth/hdauth",
+      "time" : {
+        "start" : 1632832819138,
+        "stop" : 1632832819138,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 /node/api/admin/facilities/lean-user-permitted-facilities",
+      "time" : {
+        "start" : 1632832819138,
+        "stop" : 1632832819138,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /node/api/application-config/grow?applicationId=58b9ae49280e20ea24a126b7",
+      "time" : {
+        "start" : 1632832819138,
+        "stop" : 1632832819138,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /node/api/me",
+      "time" : {
+        "start" : 1632832819138,
+        "stop" : 1632832819138,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /node/api/admin/facilities/user-permitted-facilities/5a15f0c7997c2a277cb1998a",
+      "time" : {
+        "start" : 1632832819138,
+        "stop" : 1632832819138,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /node/api/facilities/58b9b09d280e20ea24a126bb/config?section=application",
+      "time" : {
+        "start" : 1632832819138,
+        "stop" : 1632832819138,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /node/api/admin/facilities/58b9b09d280e20ea24a126bb/is-state-licensed",
+      "time" : {
+        "start" : 1632832819138,
+        "stop" : 1632832819138,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "new url https://uat.flourishsoftware.com/welcome",
+      "time" : {
+        "start" : 1632832819138,
+        "stop" : 1632832819138,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get .push-pin-checkbox > .icon-container > inline-svg > .inline-svg-container > svg",
+      "time" : {
+        "start" : 1632832819139,
+        "stop" : 1632832819154,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click {force: true}",
+      "time" : {
+        "start" : 1632832819155,
+        "stop" : 1632832819252,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "wait 1000",
+      "time" : {
+        "start" : 1632832819252,
+        "stop" : 1632832820268,
+        "duration" : 1016
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log Login successful",
+      "time" : {
+        "start" : 1632832820268,
+        "stop" : 1632832820277,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get .top-nav-select-facility-anchor-text",
+      "time" : {
+        "start" : 1632832820277,
+        "stop" : 1632832820333,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<span.top-nav-select-facility-anchor-text>** to be **visible**",
+      "time" : {
+        "start" : 1632832820333,
+        "stop" : 1632832820333,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get .top-nav-select-facility-anchor-text",
+      "time" : {
+        "start" : 1632832820333,
+        "stop" : 1632832820379,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1632832820379,
+        "stop" : 1632832820606,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get div[class=\"header-container\"] li:nth-child(4) a:nth-child(1)",
+      "time" : {
+        "start" : 1632832820606,
+        "stop" : 1632832820643,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1632832820643,
+        "stop" : 1632832820933,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /node/api/facilities/5c1991b318fc4c7c6792789e/config?section=application",
+      "time" : {
+        "start" : 1632832820931,
+        "stop" : 1632832820931,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /node/api/admin/facilities/5c1991b318fc4c7c6792789e/is-state-licensed",
+      "time" : {
+        "start" : 1632832820932,
+        "stop" : 1632832820932,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 40,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get #nav-retail > div > p",
+      "time" : {
+        "start" : 1632832820987,
+        "stop" : 1632832821019,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1632832821019,
+        "stop" : 1632832821248,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **[ <div.k-loading-image>, 1 more... ]** to be **visible**",
+      "time" : {
+        "start" : 1632832821248,
+        "stop" : 1632832825664,
+        "duration" : 4416
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /node/api/applications/58b9ae49280e20ea24a126b7/valid?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825660,
+        "stop" : 1632832825660,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/grids?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825660,
+        "stop" : 1632832825660,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/customergroups?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825660,
+        "stop" : 1632832825660,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/customers/disciplinary/statuses?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825660,
+        "stop" : 1632832825660,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/suffixes?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825661,
+        "stop" : 1632832825661,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/paymentstatus/orders?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825661,
+        "stop" : 1632832825661,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/cureapi/status/read?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825661,
+        "stop" : 1632832825661,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/cureapi/status/write?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825661,
+        "stop" : 1632832825661,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/settings?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825661,
+        "stop" : 1632832825661,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/customers/orders/fulfillmenttypes?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825661,
+        "stop" : 1632832825661,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /node/api/companies/58b9ae9c280e20ea24a126b8/profile?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825661,
+        "stop" : 1632832825661,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/status/orders?is_cc=true&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825661,
+        "stop" : 1632832825661,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/destinations?isActive=1&facilityTypeID=4&facilityTypeID=5&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825661,
+        "stop" : 1632832825661,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/items?sellable=1&includeVariations=1&strainNotVariable=1&onlyFacilityTags=1&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825661,
+        "stop" : 1632832825661,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/drivers?onlyFacilityTags=1&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825661,
+        "stop" : 1632832825661,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v2/api/admin/discounts?only_custom=true&order_type_id=1",
+      "time" : {
+        "start" : 1632832825661,
+        "stop" : 1632832825661,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "new url https://uat.flourishsoftware.com/retail/5c1991b318fc4c7c6792789e/purchases/list",
+      "time" : {
+        "start" : 1632832825662,
+        "stop" : 1632832825662,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/filters/ccorders?origin_facility_id=5c1991b318fc4c7c6792789e&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825662,
+        "stop" : 1632832825662,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /node/api/applications/58b9ae49280e20ea24a126b7/valid?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825662,
+        "stop" : 1632832825662,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "new url https://uat.flourishsoftware.com/retail/5c1991b318fc4c7c6792789e/purchases/list?storeId=5c1991b318fc4c7c6792789e",
+      "time" : {
+        "start" : 1632832825662,
+        "stop" : 1632832825662,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/metrics/orders?origin_facility_id=5c1991b318fc4c7c6792789e&order_status=Created&order_status=Allocated&order_status=Submitted&order_status=Packed&order_status=Shipped&order_status=Out for Delivery&order_status=Undeliverable&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825662,
+        "stop" : 1632832825662,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/ccorders?page=1&pageRecords=20&sortBy=delivery_timestamp&sortOrder=desc&order_status=Created&order_status=Allocated&order_status=Submitted&order_status=Packed&order_status=Shipped&order_status=Out for Delivery&order_status=Undeliverable&origin_facility_id=5c1991b318fc4c7c6792789e&q=&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832825663,
+        "stop" : 1632832825663,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //div[@class='k-loading-image']",
+      "time" : {
+        "start" : 1632832825663,
+        "stop" : 1632832825663,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "wait 2000",
+      "time" : {
+        "start" : 1632832825664,
+        "stop" : 1632832827677,
+        "duration" : 2013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/metrics/orders?origin_facility_id=5c1991b318fc4c7c6792789e&order_status=Created&order_status=Allocated&order_status=Submitted&order_status=Packed&order_status=Shipped&order_status=Out%20for%20Delivery&order_status=Undeliverable&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832827673,
+        "stop" : 1632832827673,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/ccorders?page=1&pageRecords=20&sortBy=delivery_timestamp&sortOrder=desc&order_status=Created&order_status=Allocated&order_status=Submitted&order_status=Packed&order_status=Shipped&order_status=Out%20for%20Delivery&order_status=Undeliverable&origin_facility_id=5c1991b318fc4c7c6792789e&q=&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832827674,
+        "stop" : 1632832827674,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/metrics/orders?origin_facility_id=5c1991b318fc4c7c6792789e&order_status=Created&order_status=Allocated&order_status=Submitted&order_status=Packed&order_status=Shipped&order_status=Out for Delivery&order_status=Undeliverable&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832827675,
+        "stop" : 1632832827675,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/ccorders?page=1&pageRecords=20&sortBy=delivery_timestamp&sortOrder=desc&order_status=Created&order_status=Allocated&order_status=Submitted&order_status=Packed&order_status=Shipped&order_status=Out for Delivery&order_status=Undeliverable&origin_facility_id=5c1991b318fc4c7c6792789e&q=&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832827676,
+        "stop" : 1632832827676,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/metrics/orders?origin_facility_id=5c1991b318fc4c7c6792789e&order_status=Created&order_status=Allocated&order_status=Submitted&order_status=Packed&order_status=Shipped&order_status=Out%20for%20Delivery&order_status=Undeliverable&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832827676,
+        "stop" : 1632832827676,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/ccorders?page=1&pageRecords=20&sortBy=delivery_timestamp&sortOrder=desc&order_status=Created&order_status=Allocated&order_status=Submitted&order_status=Packed&order_status=Shipped&order_status=Out%20for%20Delivery&order_status=Undeliverable&origin_facility_id=5c1991b318fc4c7c6792789e&q=&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI0MjdlNTg4NmYzOTNlYTQ4NzMyMGRh",
+      "time" : {
+        "start" : 1632832827677,
+        "stop" : 1632832827677,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get body.ng-scope:nth-child(2) div.main div.wrapper div.page-area div.content-view-container.ng-scope ui-view.ng-scope app.ng-scope.ng-isolate-scope div.main_container:nth-child(1) ui-view.ng-scope retail.ng-scope.ng-isolate-scope div.module-tabs-row:nth-child(1) div.module-tabs-container module-tabs.ng-isolate-scope div.module-tabs-section-tab-background.wmsight-submodule-tab-background-row div.module-tabs-component-tab-list.wmsight-submodule-tab-list.ng-isolate-scope ul.nav.nav-tabs li.module-tabs-component-tab-list-item.module-tabs-tab-2.wmsight-submodule-tab-2.wmsight-submodule-tab-registers.wmsight-submodule-tab.uib-tab.nav-item:nth-child(3) a.nav-link.ng-binding uib-tab-heading.module-tabs-component-tab-list-item-heading.ng-scope.dropdown-tab-heading span.module-tabs-component-tab-list-heading-dropdown.dropdown.ng-scope > span.module-tabs-component-tab-list-heading-dropdown-toggle.dropdown-toggle.module-tab-menu-items.ng-binding",
+      "time" : {
+        "start" : 1632832827677,
+        "stop" : 1632832827724,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get .module-tabs-tab-2 > .nav-link > .module-tabs-component-tab-list-item-heading > .module-tabs-component-tab-list-heading-dropdown > .module-tabs-component-tab-list-dropdown-menu > :nth-child(1) > .module-tabs-menu-items",
+      "time" : {
+        "start" : 1632832827732,
+        "stop" : 1632832827910,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<span.module-tabs-menu-items.ng-binding>** to be **visible**",
+      "time" : {
+        "start" : 1632832827909,
+        "stop" : 1632832827909,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1632832827910,
+        "stop" : 1632832828464,
+        "duration" : 554
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /node/api/applications/58b9ae49280e20ea24a126b7/valid?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832828464,
+        "stop" : 1632832828464,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get div[id=\"till-1\"] a[class=\"flourish-submit-anchor card-settings-child-level-name\"]",
+      "time" : {
+        "start" : 1632832828464,
+        "stop" : 1632832829978,
+        "duration" : 1514
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/paymentstatus/orders?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829964,
+        "stop" : 1632832829964,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/cureapi/status/read?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829965,
+        "stop" : 1632832829965,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/cureapi/status/write?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829965,
+        "stop" : 1632832829965,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/tills?active=1&external=0&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829965,
+        "stop" : 1632832829965,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/retail/facilities/5c1991b318fc4c7c6792789e/paymenttypes?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829966,
+        "stop" : 1632832829966,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults?active=1&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829966,
+        "stop" : 1632832829966,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/1/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829966,
+        "stop" : 1632832829966,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/1/subvaults?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829967,
+        "stop" : 1632832829967,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/2/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829971,
+        "stop" : 1632832829971,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/2/subvaults?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829972,
+        "stop" : 1632832829972,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/3/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829972,
+        "stop" : 1632832829972,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/3/subvaults?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829973,
+        "stop" : 1632832829973,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/1/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829974,
+        "stop" : 1632832829974,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/2/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829974,
+        "stop" : 1632832829974,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/3/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829975,
+        "stop" : 1632832829975,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/16/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829975,
+        "stop" : 1632832829975,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/18/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829976,
+        "stop" : 1632832829976,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/19/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829976,
+        "stop" : 1632832829976,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/20/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829976,
+        "stop" : 1632832829976,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/27/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829977,
+        "stop" : 1632832829977,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/29/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832829977,
+        "stop" : 1632832829977,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "new url https://uat.flourishsoftware.com/retail/5c1991b318fc4c7c6792789e/registers",
+      "time" : {
+        "start" : 1632832829977,
+        "stop" : 1632832829977,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1632832829978,
+        "stop" : 1632832831494,
+        "duration" : 1516
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/1/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831487,
+        "stop" : 1632832831487,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/2/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831487,
+        "stop" : 1632832831487,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/3/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831487,
+        "stop" : 1632832831487,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/1/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831487,
+        "stop" : 1632832831487,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/2/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831489,
+        "stop" : 1632832831489,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/3/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831490,
+        "stop" : 1632832831490,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/16/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831490,
+        "stop" : 1632832831490,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /node/api/applications/58b9ae49280e20ea24a126b7/valid?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831490,
+        "stop" : 1632832831490,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/reasons?reasonType=variance&active=1&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831490,
+        "stop" : 1632832831490,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaultcount/1?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831492,
+        "stop" : 1632832831492,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/18/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831493,
+        "stop" : 1632832831493,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/19/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831493,
+        "stop" : 1632832831493,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/20/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831493,
+        "stop" : 1632832831493,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/27/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831493,
+        "stop" : 1632832831493,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/29/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832831494,
+        "stop" : 1632832831494,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Sub Tillu Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832831494,
+        "stop" : 1632832831732,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Sub Tillu Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832831733,
+        "stop" : 1632832831741,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type 1511",
+      "time" : {
+        "start" : 1632832831742,
+        "stop" : 1632832832412,
+        "duration" : 670
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "tab",
+      "time" : {
+        "start" : 1632832832412,
+        "stop" : 1632832832652,
+        "duration" : 240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832832652,
+        "stop" : 1632832832660,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832832662,
+        "stop" : 1632832832667,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1632832832667,
+        "stop" : 1632832833313,
+        "duration" : 646
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832833313,
+        "stop" : 1632832833316,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type mis",
+      "time" : {
+        "start" : 1632832833316,
+        "stop" : 1632832833977,
+        "duration" : 661
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832833977,
+        "stop" : 1632832833981,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type {enter}",
+      "time" : {
+        "start" : 1632832833981,
+        "stop" : 1632832834517,
+        "duration" : 536
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[5]/form-textarea[1]/div[1]/textarea[1]",
+      "time" : {
+        "start" : 1632832834517,
+        "stop" : 1632832834528,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[5]/form-textarea[1]/div[1]/textarea[1]",
+      "time" : {
+        "start" : 1632832834529,
+        "stop" : 1632832834535,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type notes5",
+      "time" : {
+        "start" : 1632832834536,
+        "stop" : 1632832835236,
+        "duration" : 700
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#k-1bb83890-fb0d-460f-9f79-25e9c93587a7.k-input.k-formatted-value>** to have attribute **aria-valuenow**",
+      "time" : {
+        "start" : 1632832835236,
+        "stop" : 1632832835260,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Sub Tillu Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832835259,
+        "stop" : 1632832835259,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log Amount of five subvalut is, 1511",
+      "time" : {
+        "start" : 1632832835261,
+        "stop" : 1632832835268,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Automation Zero Amount Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832835268,
+        "stop" : 1632832835276,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Automation Zero Amount Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832835278,
+        "stop" : 1632832835286,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type 1511",
+      "time" : {
+        "start" : 1632832835286,
+        "stop" : 1632832836005,
+        "duration" : 719
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "tab",
+      "time" : {
+        "start" : 1632832836005,
+        "stop" : 1632832836083,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832836083,
+        "stop" : 1632832836089,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832836091,
+        "stop" : 1632832836096,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1632832836096,
+        "stop" : 1632832836649,
+        "duration" : 553
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832836649,
+        "stop" : 1632832836656,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type mis",
+      "time" : {
+        "start" : 1632832836656,
+        "stop" : 1632832837285,
+        "duration" : 629
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832837286,
+        "stop" : 1632832837291,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type {enter}",
+      "time" : {
+        "start" : 1632832837291,
+        "stop" : 1632832837902,
+        "duration" : 611
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[5]/form-textarea[1]/div[1]/textarea[1]",
+      "time" : {
+        "start" : 1632832837902,
+        "stop" : 1632832837910,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[5]/form-textarea[1]/div[1]/textarea[1]",
+      "time" : {
+        "start" : 1632832837911,
+        "stop" : 1632832837918,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type notes4",
+      "time" : {
+        "start" : 1632832837918,
+        "stop" : 1632832838635,
+        "duration" : 717
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#k-55ea0ab8-263a-4efd-a55e-afca1bd98fd1.k-input.k-formatted-value>** to have attribute **aria-valuenow**",
+      "time" : {
+        "start" : 1632832838635,
+        "stop" : 1632832838656,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Automation Zero Amount Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832838656,
+        "stop" : 1632832838656,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log Amount of four subvalut is, 1511",
+      "time" : {
+        "start" : 1632832838658,
+        "stop" : 1632832838663,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Automation Deposit SubVault Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832838663,
+        "stop" : 1632832838670,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Automation Deposit SubVault Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832838671,
+        "stop" : 1632832838676,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type 1511",
+      "time" : {
+        "start" : 1632832838676,
+        "stop" : 1632832839344,
+        "duration" : 668
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "tab",
+      "time" : {
+        "start" : 1632832839344,
+        "stop" : 1632832839414,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832839415,
+        "stop" : 1632832839421,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832839424,
+        "stop" : 1632832839429,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1632832839429,
+        "stop" : 1632832840102,
+        "duration" : 673
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832840102,
+        "stop" : 1632832840108,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type mis",
+      "time" : {
+        "start" : 1632832840109,
+        "stop" : 1632832840821,
+        "duration" : 712
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832840821,
+        "stop" : 1632832840826,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type {enter}",
+      "time" : {
+        "start" : 1632832840826,
+        "stop" : 1632832841451,
+        "duration" : 625
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[5]/form-textarea[1]/div[1]/textarea[1]",
+      "time" : {
+        "start" : 1632832841451,
+        "stop" : 1632832841456,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[5]/form-textarea[1]/div[1]/textarea[1]",
+      "time" : {
+        "start" : 1632832841456,
+        "stop" : 1632832841460,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type notes3",
+      "time" : {
+        "start" : 1632832841460,
+        "stop" : 1632832842218,
+        "duration" : 758
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#k-538d4116-3a81-4662-b4e1-c2cb44dcdad9.k-input.k-formatted-value>** to have attribute **aria-valuenow**",
+      "time" : {
+        "start" : 1632832842218,
+        "stop" : 1632832842231,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Automation Deposit SubVault Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832842231,
+        "stop" : 1632832842231,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log Amount of three subvalut is, 1511",
+      "time" : {
+        "start" : 1632832842232,
+        "stop" : 1632832842235,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Coin Bag Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832842235,
+        "stop" : 1632832842240,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Coin Bag Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832842241,
+        "stop" : 1632832842249,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type 1511",
+      "time" : {
+        "start" : 1632832842249,
+        "stop" : 1632832842901,
+        "duration" : 652
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "tab",
+      "time" : {
+        "start" : 1632832842901,
+        "stop" : 1632832843010,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832843010,
+        "stop" : 1632832843016,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832843018,
+        "stop" : 1632832843024,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1632832843024,
+        "stop" : 1632832843708,
+        "duration" : 684
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832843708,
+        "stop" : 1632832843755,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type mis",
+      "time" : {
+        "start" : 1632832843755,
+        "stop" : 1632832844401,
+        "duration" : 646
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832844402,
+        "stop" : 1632832844412,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type {enter}",
+      "time" : {
+        "start" : 1632832844412,
+        "stop" : 1632832845084,
+        "duration" : 672
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[5]/form-textarea[1]/div[1]/textarea[1]",
+      "time" : {
+        "start" : 1632832845084,
+        "stop" : 1632832845090,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[5]/form-textarea[1]/div[1]/textarea[1]",
+      "time" : {
+        "start" : 1632832845091,
+        "stop" : 1632832845096,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type notes2",
+      "time" : {
+        "start" : 1632832845096,
+        "stop" : 1632832845814,
+        "duration" : 718
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#k-a8ed7933-de6d-4227-b235-58951ef07c5a.k-input.k-formatted-value>** to have attribute **aria-valuenow**",
+      "time" : {
+        "start" : 1632832845814,
+        "stop" : 1632832845827,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Coin Bag Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832845827,
+        "stop" : 1632832845827,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log Amount of two subvalut is, 1511",
+      "time" : {
+        "start" : 1632832845828,
+        "stop" : 1632832845833,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Cash bag Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832845834,
+        "stop" : 1632832845839,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Cash bag Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832845840,
+        "stop" : 1632832845846,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type 1511",
+      "time" : {
+        "start" : 1632832845846,
+        "stop" : 1632832846519,
+        "duration" : 673
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "tab",
+      "time" : {
+        "start" : 1632832846519,
+        "stop" : 1632832846566,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832846566,
+        "stop" : 1632832846573,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832846574,
+        "stop" : 1632832846583,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1632832846583,
+        "stop" : 1632832847224,
+        "duration" : 641
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832847224,
+        "stop" : 1632832847228,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type mis",
+      "time" : {
+        "start" : 1632832847228,
+        "stop" : 1632832847960,
+        "duration" : 732
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/span[1]/filterable-dropdown[1]/kendo-dropdownlist[1]/span[1]/span[2]",
+      "time" : {
+        "start" : 1632832847960,
+        "stop" : 1632832847964,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type {enter}",
+      "time" : {
+        "start" : 1632832847964,
+        "stop" : 1632832848591,
+        "duration" : 627
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/form-textarea[1]/div[1]/textarea[1]",
+      "time" : {
+        "start" : 1632832848591,
+        "stop" : 1632832848597,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //body/ngb-modal-window[1]/div[1]/div[1]/count-vault[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/form-textarea[1]/div[1]/textarea[1]",
+      "time" : {
+        "start" : 1632832848599,
+        "stop" : 1632832848606,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type notes1",
+      "time" : {
+        "start" : 1632832848606,
+        "stop" : 1632832849392,
+        "duration" : 786
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#k-cca68f31-c309-4c4b-bc5b-40adb9fe599e.k-input.k-formatted-value>** to have attribute **aria-valuenow**",
+      "time" : {
+        "start" : 1632832849392,
+        "stop" : 1632832849405,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[normalize-space()='Cash bag Count']//following::span[1]/input",
+      "time" : {
+        "start" : 1632832849405,
+        "stop" : 1632832849405,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log Amount of one subvalut is, 1511",
+      "time" : {
+        "start" : 1632832849406,
+        "stop" : 1632832849411,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[contains(text(),'New Total Cash')]//following::div[1]/strong",
+      "time" : {
+        "start" : 1632832849411,
+        "stop" : 1632832849419,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log Total new cash amount from web, 7555.00",
+      "time" : {
+        "start" : 1632832849422,
+        "stop" : 1632832849427,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log Amount of one subvalut is, 1511",
+      "time" : {
+        "start" : 1632832849427,
+        "stop" : 1632832849432,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log calculate total amount is, 7555.00",
+      "time" : {
+        "start" : 1632832849432,
+        "stop" : 1632832849439,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log calculation of Amount is showing correct",
+      "time" : {
+        "start" : 1632832849440,
+        "stop" : 1632832849445,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //span[contains(text(),'Report Cash Balance')]",
+      "time" : {
+        "start" : 1632832849445,
+        "stop" : 1632832849451,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "scrollIntoView",
+      "time" : {
+        "start" : 1632832849451,
+        "stop" : 1632832849659,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<span.submit-button-text>** to be **visible**",
+      "time" : {
+        "start" : 1632832849659,
+        "stop" : 1632832849659,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log Click on Report Balance button",
+      "time" : {
+        "start" : 1632832849686,
+        "stop" : 1632832849697,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaultreconciliation?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832849697,
+        "stop" : 1632832849697,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<div.toast-message.ng-star-inserted>** to be **visible**",
+      "time" : {
+        "start" : 1632832849698,
+        "stop" : 1632832851591,
+        "duration" : 1893
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /node/api/applications/58b9ae49280e20ea24a126b7/valid?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832851590,
+        "stop" : 1632832851590,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/cureapi/status/read?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832851591,
+        "stop" : 1632832851591,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/cureapi/status/write?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832851591,
+        "stop" : 1632832851591,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //div[contains(text(),'Vault count saved successfully.')]",
+      "time" : {
+        "start" : 1632832851591,
+        "stop" : 1632832851591,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **[ <div.module-loading-spinner.animated.icon-large>, 3 more... ]** not to be **visible**",
+      "time" : {
+        "start" : 1632832851591,
+        "stop" : 1632832854920,
+        "duration" : 3329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/tills?active=1&external=0&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854910,
+        "stop" : 1632832854910,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/1/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854910,
+        "stop" : 1632832854910,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/1/subvaults?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854910,
+        "stop" : 1632832854910,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/2/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854911,
+        "stop" : 1632832854911,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/2/subvaults?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854911,
+        "stop" : 1632832854911,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/3/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854911,
+        "stop" : 1632832854911,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/3/subvaults?m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854911,
+        "stop" : 1632832854911,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/1/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854912,
+        "stop" : 1632832854912,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/2/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854912,
+        "stop" : 1632832854912,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/3/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854912,
+        "stop" : 1632832854912,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/16/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854913,
+        "stop" : 1632832854913,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/18/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854913,
+        "stop" : 1632832854913,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/19/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854914,
+        "stop" : 1632832854917,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/20/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854918,
+        "stop" : 1632832854918,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/27/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854919,
+        "stop" : 1632832854919,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://uat.flourishsoftware.com/go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/till/29/stats?from_date=2021/09/28&to_date=2021/09/29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854920,
+        "stop" : 1632832854920,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/1/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854920,
+        "stop" : 1632832854920,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/2/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854920,
+        "stop" : 1632832854920,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /go/v1/api/grow/facilities/5c1991b318fc4c7c6792789e/vaults/3/stats?from_date=2021%2F09%2F28&to_date=2021%2F09%2F29&m=NWI0MjdkYmI4NmYzOTNlYTQ4NzMyMGQ4&s=NWI2YzhiYWNiNzVlZDQ0NDM3MmVlMWY3",
+      "time" : {
+        "start" : 1632832854920,
+        "stop" : 1632832854920,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath //div[@class='module-loading-spinner animated icon-large']",
+      "time" : {
+        "start" : 1632832854920,
+        "stop" : 1632832854920,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<span.cash-in-till-amount.ng-star-inserted>** to be **visible**",
+      "time" : {
+        "start" : 1632832854922,
+        "stop" : 1632832855110,
+        "duration" : 188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "xpath (//span[contains(text(), 'Cash In Vault: ')])[1]//following::span[1]",
+      "time" : {
+        "start" : 1632832855109,
+        "stop" : 1632832855109,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log Total Cash valut amount from web,  7555.00 ",
+      "time" : {
+        "start" : 1632832855111,
+        "stop" : 1632832855121,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log Total amount from calculation, 7555.00",
+      "time" : {
+        "start" : 1632832855121,
+        "stop" : 1632832855129,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log calculation of Total Vault is showing correct, 7555.00",
+      "time" : {
+        "start" : 1632832855130,
+        "stop" : 1632832855140,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 203,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "To verified Retail Manage till end to end"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa41e7d84faa5f46.json",
+  "parameterValues" : [ ]
+}

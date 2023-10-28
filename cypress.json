@@ -1,0 +1,7 @@
+{
+
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout":12000,
+     "retries": 0,
+     "include": ["./node_modules/cypress", "cypress/**/*.js"] 
+}

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Sep 28 18:10:20 IST 2021","Tue Sep 28 18:10:55 IST 2021","34208","","To verified Retail Manage till end to end","","","","To verified Till Vault count in Retail",""
+"passed","Tue Sep 28 18:11:18 IST 2021","Tue Sep 28 18:11:18 IST 2021","76","","Time","","","","Get current Time",""
+"passed","Tue Sep 28 18:09:35 IST 2021","Tue Sep 28 18:09:50 IST 2021","14470","","Login testsuite","","","","Enter correct username and password",""
